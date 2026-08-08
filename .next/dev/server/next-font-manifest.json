@@ -1,0 +1,12 @@
+{
+  "app": {
+    "[project]/src/app/workflows/[id]/page": [
+      "static/media/SpaceGrotesk-s.p.3bk34495xijiu.ttf",
+      "static/media/Inter-s.p.2la4dbfrngu72.ttf",
+      "static/media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

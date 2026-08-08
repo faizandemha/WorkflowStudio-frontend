@@ -1,0 +1,25 @@
+/* [project]/src/app/jetbrainsmono_4e62c36e.module.css [app-client] (css) */
+@font-face {
+  font-family: jetbrainsMono;
+  src: url("../media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: jetbrainsMono Fallback;
+  src: local(Arial);
+  ascent-override: 77.57%;
+  descent-override: 22.82%;
+  line-gap-override: 0.0%;
+  size-adjust: 131.49%;
+}
+
+.jetbrainsmono_4e62c36e-module__KN9aIG__className {
+  font-family: jetbrainsMono, jetbrainsMono Fallback;
+}
+
+.jetbrainsmono_4e62c36e-module__KN9aIG__variable {
+  --font-mono: "jetbrainsMono", "jetbrainsMono Fallback";
+}
+
+/*# sourceMappingURL=src_app_jetbrainsmono_4e62c36e_module_css_1igg3k2._.single.css.map*/
