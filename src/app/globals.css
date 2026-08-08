@@ -10,23 +10,26 @@
   legible: amber means "this needs you," teal means "this worked."
 */
 :root {
-  --color-base: #10131a;
-  --color-surface: #161a23;
-  --color-surface-hover: #1c212c;
-  --color-surface-raised: #1f2530;
-  --color-border: #262c39;
-  --color-border-strong: #333b4a;
+  /* base = sunken tone: page background + recessed panels (inputs, code
+     blocks) that sit inside a card. surface = raised tone: cards, sidebar,
+     header, dialogs. Keeping these distinct is what gives the UI depth. */
+  --color-base: #EEF2F8;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #EAF0F9;
+  --color-surface-raised: #E3E9F2;
+  --color-border: #D7DEEA;
+  --color-border-strong: #B8C4D8;
 
-  --color-text-primary: #edeff3;
-  --color-text-secondary: #8b94a6;
-  --color-text-tertiary: #5c6577;
+  --color-text-primary: #101B3D;
+  --color-text-secondary: #48536E;
+  --color-text-tertiary: #8996B0;
 
-  --color-accent-amber: #f2a93b;
-  --color-accent-amber-dim: #4a3a1f;
-  --color-accent-teal: #4fd1c5;
-  --color-accent-teal-dim: #1c3a37;
-  --color-accent-red: #f2555a;
-  --color-accent-red-dim: #452227;
+  --color-accent-amber: #D97706;
+  --color-accent-amber-dim: #FDEDC8;
+  --color-accent-teal: #0D9488;
+  --color-accent-teal-dim: #CCFBF1;
+  --color-accent-red: #DC2626;
+  --color-accent-red-dim: #FEE2E2;
 }
 
 @theme inline {

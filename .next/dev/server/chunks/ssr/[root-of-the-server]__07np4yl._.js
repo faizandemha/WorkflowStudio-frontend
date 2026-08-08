@@ -169,7 +169,8 @@ const api = {
         }),
     listExecutions: (workflowId, limit = 20)=>request(`/workflows/${workflowId}/executions?limit=${limit}`),
     getExecution: (id)=>request(`/executions/${id}`),
-    getExecutionSteps: (executionId)=>request(`/executions/${executionId}/steps`)
+    getExecutionSteps: (executionId)=>request(`/executions/${executionId}/steps`),
+    listAllExecutions: (limit = 50, offset = 0)=>request(`/executions?limit=${limit}&offset=${offset}`)
 };
 }),
 ];

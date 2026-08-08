@@ -1,21 +1,6 @@
 {
   "app": {
-    "[project]/src/app/_not-found/page": [
-      "static/media/SpaceGrotesk-s.p.3bk34495xijiu.ttf",
-      "static/media/Inter-s.p.2la4dbfrngu72.ttf",
-      "static/media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf"
-    ],
     "[project]/src/app/page": [
-      "static/media/SpaceGrotesk-s.p.3bk34495xijiu.ttf",
-      "static/media/Inter-s.p.2la4dbfrngu72.ttf",
-      "static/media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf"
-    ],
-    "[project]/src/app/workflows/[id]/page": [
-      "static/media/SpaceGrotesk-s.p.3bk34495xijiu.ttf",
-      "static/media/Inter-s.p.2la4dbfrngu72.ttf",
-      "static/media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf"
-    ],
-    "[project]/src/app/workflows/new/page": [
       "static/media/SpaceGrotesk-s.p.3bk34495xijiu.ttf",
       "static/media/Inter-s.p.2la4dbfrngu72.ttf",
       "static/media/JetBrainsMono-s.p.2zi1ojajef2ra.ttf"

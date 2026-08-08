@@ -60,7 +60,7 @@ async function DashboardPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2d$shell$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["DashboardShell"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "flex flex-col gap-3 border-b border-border bg-surface px-4 py-4 shadow-[0_1px_0_0_rgba(16,27,61,0.02),0_2px_8px_0_rgba(16,27,61,0.03)] sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:py-6",
+                className: "flex flex-col gap-3 border-b border-border bg-surface px-4 py-4 shadow-sm sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:py-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -446,7 +446,8 @@ const api = {
         }),
     listExecutions: (workflowId, limit = 20)=>request(`/workflows/${workflowId}/executions?limit=${limit}`),
     getExecution: (id)=>request(`/executions/${id}`),
-    getExecutionSteps: (executionId)=>request(`/executions/${executionId}/steps`)
+    getExecutionSteps: (executionId)=>request(`/executions/${executionId}/steps`),
+    listAllExecutions: (limit = 50, offset = 0)=>request(`/executions?limit=${limit}&offset=${offset}`)
 };
 }),
 ];
