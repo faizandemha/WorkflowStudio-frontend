@@ -26,7 +26,7 @@ export function Sidebar({ open }: { open: boolean }) {
         <div className="flex h-7 w-7 items-center justify-center rounded-md bg-accent-amber-dim text-accent-amber">
           <Zap size={16} strokeWidth={2.5} />
         </div>
-        <span className="font-[family-name:var(--font-display)] text-[15px] font-medium tracking-tight">
+        <span className="font-[family-name:var(--font-display)] text-[18px] font-medium tracking-tight">
           WorkflowStudio
         </span>
       </div>
