@@ -74,7 +74,7 @@ export function ExecutionPanel({ workflowId, onSteps, onRunStart }: Props) {
       <button
         onClick={handleTrigger}
         disabled={triggering}
-        className="flex items-center gap-2 rounded-md bg-accent-amber px-4 py-2 text-[13px] font-medium text-base transition-all duration-150 hover:opacity-90 active:scale-[0.97] disabled:opacity-50 disabled:active:scale-100"
+        className="btn-3d btn-3d-amber flex items-center gap-2 rounded-md bg-accent-amber px-4 py-2 text-[13px] font-medium text-base disabled:opacity-50"
       >
         {triggering ? <Loader2 size={15} className="animate-spin" /> : <Play size={15} strokeWidth={2.5} />}
         Run workflow

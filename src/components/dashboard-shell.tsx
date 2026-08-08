@@ -14,7 +14,7 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
       <div className="flex items-center justify-between border-b border-border bg-surface px-4 py-3 lg:hidden">
         <div className="flex items-center gap-2">
           <div className="flex h-6 w-6 items-center justify-center rounded-md bg-accent-amber-dim text-accent-amber">
-            <Zap size={13} strokeWidth={2.5} />
+            <Zap size={40} strokeWidth={2.5} />
           </div>
           <span className="font-[family-name:var(--font-display)] text-[14px] font-medium tracking-tight">
             WorkflowStudio

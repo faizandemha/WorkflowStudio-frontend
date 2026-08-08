@@ -2019,7 +2019,7 @@ function ConfirmDialog({ open, title, message, confirmLabel = "Delete", pending 
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: onConfirm,
                                 disabled: pending,
-                                className: "flex items-center gap-2 rounded-md bg-accent-red px-3.5 py-2 text-[13px] font-medium text-base transition-opacity hover:opacity-90 disabled:opacity-60",
+                                className: "btn-3d btn-3d-red flex items-center gap-2 rounded-md bg-accent-red px-3.5 py-2 text-[13px] font-medium text-base disabled:opacity-60",
                                 children: [
                                     pending && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
                                         size: 13,
@@ -2095,7 +2095,7 @@ function DashboardShell({ children }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex h-6 w-6 items-center justify-center rounded-md bg-accent-amber-dim text-accent-amber",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
-                                    size: 13,
+                                    size: 40,
                                     strokeWidth: 2.5
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/dashboard-shell.tsx",
@@ -2339,15 +2339,15 @@ const NAV_ITEMS = [
 ];
 function Sidebar({ open }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("flex h-full w-60 shrink-0 flex-col border-r border-border bg-surface transition-transform duration-200 ease-out lg:translate-x-0", open ? "translate-x-0" : "-translate-x-full"),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("flex h-full w-60 shrink-0 flex-col border-r border-border bg-surface shadow-[1px_0_0_0_rgba(16,27,61,0.02),2px_0_12px_0_rgba(16,27,61,0.04)] transition-transform duration-200 ease-out lg:translate-x-0", open ? "translate-x-0" : "-translate-x-full"),
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-2 px-5 py-5",
+                className: "flex items-center gap-2 px-1.5 py-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex h-7 w-7 items-center justify-center rounded-md bg-accent-amber-dim text-accent-amber",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
-                            size: 16,
+                            size: 20,
                             strokeWidth: 2.5
                         }, void 0, false, {
                             fileName: "[project]/src/components/sidebar.tsx",
@@ -2360,7 +2360,7 @@ function Sidebar({ open }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "font-[family-name:var(--font-display)] text-[15px] font-medium tracking-tight",
+                        className: "font-[family-name:var(--font-display)] text-[25px] font-medium tracking-tight",
                         children: "WorkflowStudio"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sidebar.tsx",
@@ -2377,10 +2377,10 @@ function Sidebar({ open }) {
                 className: "flex flex-col gap-0.5 px-3 py-2",
                 children: NAV_ITEMS.map(({ href, label, icon: Icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: href,
-                        className: "group flex items-center gap-2.5 rounded-md px-3 py-2 text-[13px] text-text-secondary transition-colors hover:bg-surface-hover hover:text-text-primary",
+                        className: "group flex items-center gap-2.5 rounded-md px-3 py-2 text-[20px] font-medium text-text-secondary transition-colors hover:bg-surface-hover hover:text-text-primary",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                size: 16,
+                                size: 25,
                                 strokeWidth: 1.75,
                                 className: "text-text-tertiary group-hover:text-text-secondary"
                             }, void 0, false, {
