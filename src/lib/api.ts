@@ -64,6 +64,15 @@ export type Execution = {
   created_at: string;
 };
 
+export type ExecutionWithWorkflow = Execution & { workflow_name: string };
+
+export type ExecutionListResponse = {
+  executions: ExecutionWithWorkflow[];
+  total: number;
+  limit: number;
+  offset: number;
+};
+
 export type ExecutionStep = {
   id: string;
   execution_id: string;
@@ -135,4 +144,7 @@ export const api = {
 
   getExecutionSteps: (executionId: string) =>
     request<ExecutionStep[]>(`/executions/${executionId}/steps`),
+
+  listAllExecutions: (limit = 50, offset = 0) =>
+    request<ExecutionListResponse>(`/executions?limit=${limit}&offset=${offset}`),
 };

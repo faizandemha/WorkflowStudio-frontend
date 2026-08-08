@@ -54,7 +54,7 @@ export function ConfirmDialog({
           <button
             onClick={onConfirm}
             disabled={pending}
-            className="btn-3d btn-3d-red flex items-center gap-2 rounded-md bg-accent-red px-3.5 py-2 text-[13px] font-medium text-base disabled:opacity-60"
+            className="flex items-center gap-2 rounded-md bg-accent-red px-3.5 py-2 text-[13px] font-medium text-base transition-opacity hover:opacity-90 disabled:opacity-60"
           >
             {pending && <Loader2 size={13} className="animate-spin" />}
             {confirmLabel}
